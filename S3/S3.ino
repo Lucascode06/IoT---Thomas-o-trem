@@ -140,7 +140,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
 }
 
 
-// Controla LED RGB
+// Função LED RGB
 void setarLED(bool r, bool g, bool b) {
   digitalWrite(LED_R, r);
   digitalWrite(LED_G, g);
